@@ -16,7 +16,7 @@ export default function Hero() {
           <Image
             alt={"group working for success"}
             objectFit={"cover"}
-            src={"/src/assets/heroBgImg.jpg"}
+            src={"/public/heroBgImg.jpg"}
           />
         </Flex>
         <Flex p={8} flex={1} align={"center"} justify={"center"}>
