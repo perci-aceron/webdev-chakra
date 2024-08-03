@@ -84,7 +84,7 @@ export default function AboutUs() {
         <Flex>
           <Image
             alt={"group in meeting"}
-            src={"/public/community.jpg"}
+            src={"/community.jpg"}
             objectFit={"cover"}
           />
         </Flex>

@@ -2,9 +2,9 @@ import Marquee from "react-fast-marquee";
 import { Stack, Heading } from "@chakra-ui/react";
 
 const companyLogos = [
-  { src: "/public/pepsi.png", alt: "pepsi logo" },
-  { src: "/public/shopee.png", alt: "shopee logo" },
-  { src: "/public/shopeeFood.png", alt: "shopee food logo" },
+  { src: "/pepsi.png", alt: "pepsi logo" },
+  { src: "/shopee.png", alt: "shopee logo" },
+  { src: "/shopeeFood.png", alt: "shopee food logo" },
   // Add more logos as needed
 ];
 
