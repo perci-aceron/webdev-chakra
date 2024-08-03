@@ -21,7 +21,16 @@ import {
 } from "react-icons/fc";
 
 // Card component
-const Card = ({ heading, description, icon, href }) => {
+import React, { ReactNode } from "react";
+
+interface CardProps {
+  heading: string;
+  description: ReactNode;
+  icon: ReactNode;
+  href: string;
+}
+
+const Card: React.FC<CardProps> = ({ heading, description, icon, href }) => {
   return (
     <Box
       maxW={{ base: "full", md: "275px" }}
