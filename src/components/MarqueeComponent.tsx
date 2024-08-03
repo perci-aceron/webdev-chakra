@@ -12,7 +12,11 @@ const LogoMarquee = () => {
   return (
     <>
       <Stack spacing={0} textAlign={"center"} align={"center"} pt="40px">
-        <Heading fontSize={{ base: "2xl", sm: "4xl" }} fontWeight={"bold"}>
+        <Heading
+          fontSize={{ base: "2xl", sm: "4xl" }}
+          fontWeight={"bold"}
+          pb={12}
+        >
           Companies Who Trust Us
         </Heading>
       </Stack>
